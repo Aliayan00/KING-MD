@@ -3,21 +3,21 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("+923109329239")
 global.mongodb = process.env.MONGODB_URI || ""
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/naveeddogar/KING-MD'
 global.location = 'pakistan/multan'
-global.gurl = 'https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w' // add your username
-global.sudo = process.env.SUDO || '923096566451'
-global.devs = '923096566451';
+global.gurl = 'https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w' // Go Go yr
+global.sudo = process.env.SUDO || '923109329239'
+global.devs = '923109329239';
 global.website = 'https://king-md-session.onrender.com/' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/5541dfe4dc8c2f51e3f02.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Naveed Dogar' : process.env.OWNER_NAME,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_Go,
+  ownername: process.env.OWNER_NAME === undefined ? 'Naveed Dogar' : process.env.OWNER_king,
+  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.KING-MD;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia083V2JQQ1l0TnVQdGlsQzJsT090K3ppUGVyV3kxVzdHUVZnd25IRU5FMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNHBjWnpzQnk4cEViajlGSkUrT1FNWkM0NVUzbFJua2wyeEFmZ2lGTzFsbz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJVT3FUeDR2WUhuMmxyNzlQeUNOZkp4NDB3Q0VDSW5DNGhUMno5NWhUdUh3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzbjgxa3pSdGpGS3lBeS8wdS9Md0k2MUpwOGE5dUNSQk9ML09XVVE2R3lrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImdKZnYxV054OG54V2FmTVYxbjRjekhzSUdJREVKMFNxWWwxeG8xZFV3RkE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpsbythU0t6WjJaVExsWk03cjZIK3pJYkJCeGJOUDI0NXpwT05tSG13aTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMkN0dWhwOTU4emNITU1tMUFnS0FjTy9RWWQ2WUdCTHh4Nk5pcU5GQ2tVVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0NDcndUcWZIUXZ5ZEoxT2hOdW8rRXY0UEVsUmNuSkhnNzFSWW94TzBYWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxoVXI3SFBlUVJsZXV5MTJHTWJHTU1EV0RYVk1jT0J4RHNsTG1tQU1XNTVMY0dBSURBU3p5UCt0YXZ0SEF0VGhvMjhVeUFwTFpOQW5tdzJSRllQK2dnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjA3LCJhZHZTZWNyZXRLZXkiOiJSQU8yZnVLZkNWUXU0bXpDRmVvS1JlU2JvcnpFcVIzWi8xdEJGU01uY21JPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlS,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'King-Md' : process.env.PACK_NAME.split(";")[1],
